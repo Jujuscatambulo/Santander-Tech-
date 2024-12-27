@@ -1,0 +1,103 @@
+Aula 1 - Instalações
+Comandos cmd
+
+---------------------------------------------------------------------------------
+Aula 2 - Arquitetura Cliente-Servidor para WEB
+
+* Protocolo HTTPS: requisições para o servidor 
+* DNS = traduz IP de sites para nomes 
+* Requisições HTTP (https://jsonplaceholder.typicode.com/)
+	- GET --> pegar 
+	- POST --> colocar
+	- PUT --> atualizar
+	- DELETE --> apagar 
+---------------------------------------------------------------------------------
+Aula 3 - Gerenciamento de memória dinâmica
+
+* variáveis:
+- const = valor que não poderá ser mudado no código;
+- let = valor que pode ser mudado no código;
+- var = funciona como um içamento (hoisting), em que todas as variáveis com var sobem para a primeira linha do código.  
+
+- Nan (not a Number) = mostra o erro, mas não trava o código 
+
+Null vs Undefined
+- O Undefined demonstra algo que não foi esperado e o Null é usado pelo programador para definir ausencia de valor 
+
+Vetores
+- Agrupa informações em listas
+---------------------------------------------------------------------------------
+Aula 4 - Controle de fluxo I
+
+* Controle de fluxo 
+* Condicionais:
+- É o if, if .. else, for, etc
+- O Else só existe se tem um if
+
+*Igualdade
+=   --> atribuição
+==  --> compara só valores
+=== --> compara valores e tipos
+
+*Operadores Booleanos 
+|| = ou/ or
+true||true = true
+true||false = true 
+false||false = false 
+
+&& = e/and
+true && true = true
+true && false = false 
+false && false = false 
+
+*Truthy e Falsy
+expressões que são avaliadas em:
+- Verdadeiro: true, [], { }, número diferente de 0, string não vazia
+- F: null, undefined, string vazia " ", NaN
+
+*Ternários
+É a simplificação de atribuição de variáveis
+
+obs: um código menor é bom, a menos que prejudique o entendimento e manutenibilidade do código 
+---------------------------------------------------------------------------------
+Aula 5 - Controle de fluxo II
+
+* While - pode ou não executar a condição e é usado quando não sabemos a quantidade de loops
+while (<condição>){
+
+}
+
+* Do-while - executa pelo menos uma vez 
+do {
+
+} while()
+
+* Métodos
+- .lenght  = pega o tamanho do array 
+- .push = insere valores no final do array
+- .startsWith(" ") = acha a string que começa com a letra
+---------------------------------------------------------------------------------
+Aula 6 - Controle de fluxo III: keyword for
+
+* For - usado para laços bem definidos, quando sabemos quando deve parar (em listas é preferível usar 'for' do que 'while') 
+
+- For-of; usado para arrays
+Estrutura:	
+for (<variavel> of <array>){
+
+}
+
+- For-in: usado para objetos 
+for (<variavel> of <objeto>){
+
+}
+
+* Algo iterável pode ser percorrido elmento a elemento 
+* Objetos: usa dosi pontos, mostrando as propriedades 
+- prop/key = propridades do objeto 
+
+* Métodos
+- .split = transforma string em array
+- .join = transforma assray em string 
+- .trim = tira os espaços desnecessários do começo e do final 
+
